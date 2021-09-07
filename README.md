@@ -8,12 +8,10 @@ This application is beginner friendly and can be implemented both the ways i.e. 
 
 ## Setup 
 
- * npm install (for downloading requirements)
- * npm start (Inside Blog master directory and also in mongodata directory if mongo DB is being connected)
+ * `npm install` (for downloading requirements)
+ * `npm start` (Inside Blog master directory and also in mongodata directory if mongo DB is being connected)
  
 That's Good to go...😀
 
-Features Demo :
-<a href="https://www.youtube.com/watch?v=zWDryYu22ds&t=7s"></a>
-<img src = "https://drive.google.com/file/d/1TTXLACBor6GbpOhahPznu0R5Xs2EuPVy/view?usp=sharing/">
-
+## Features Demo :
+### <a href="https://www.youtube.com/watch?v=zWDryYu22ds&t=7s">👉🏻👉🏻Click</a>
