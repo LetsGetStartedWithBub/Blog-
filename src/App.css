@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Archivo+Black&display=swap&family=Righteous&family=Signika:wght@200&family=Chela+One&family=Fredoka+One&display=swap');
+
+*{
+  margin : 0;
+  padding : 0;
+  font-family: 'Fredoka One', sans-serif;
+}
+:root{
+  --white : #ffffff;
+  --black : #000000;
+  --orange : #f07c3a;
+  --darkblue : #171c64ee;
+  --blue : #81dbf1e7;
+  --buttontext : #ffffff;
+}
+.App{
+  margin: 0;
+  top: 0;
+  display: block;
+  box-sizing: border-box;
+  min-height :100vh;
+  max-height: 100%;
+  background:var(--blue);
+  overflow-wrap :wrap;
+}
+.Appdark{
+  margin: 0;
+  top: 0;
+  display: block;
+  box-sizing: border-box;
+  min-height :100vh;
+  --darkblue: #81dbf1e7;
+  --black:#81dbf1e7;
+  --buttontext : #171c64ee;
+  color : var(--black);
+  background : #171c64ee;
+  overflow-wrap :wrap;
+}
+@media all and (max-width : 768px){
+  .App{
+    min-height: 100vh;
+    max-height: 100%;
+  }
+}

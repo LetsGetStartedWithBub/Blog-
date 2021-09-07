@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+
+.blogIntro{
+    margin: 1rem;
+    position: relative;
+    display:  flex;
+    justify-self: center;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+@media all and (max-width : 768px){
+    .blogIntro{
+        flex-direction: column;
+    }
+}
+.details{
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.blogIntro .details h2{
+    font-weight: 200!;
+}
+.imageContainer{
+    align-self: center;
+    -webkit-align-self : center;
+    -ms-flex-item-align: center;    
+}
+.imageContainer img{
+    max-height: 600px;
+    border-style: none;
+    max-width: 100%;
+    background: transparent;
+}
+#img{
+    background: transparent;
+}

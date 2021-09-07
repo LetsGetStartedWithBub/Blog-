@@ -1,0 +1,107 @@
+
+/*---------------------------------------------------------------------------------------*/
+.navbar{
+    margin :0;
+    padding : 1rem 2rem 1rem 2rem;
+    align-items: center;
+    display : flex;
+    justify-content: space-between !important;
+    color : var(--darkblue);
+    text-transform: uppercase;
+}
+.navbar .logo{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive !important;
+    font-size: 1.5em;
+    font-weight: 500 !important;
+    color: var(--darkblue);
+}
+.navbar .nav-menu{
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-menu a{
+    position: relative;
+    display :inline-block;
+    padding: 0.75em;
+    color : var(--darkblue);
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive !important;
+    font-size: 1.15em;
+    font-weight: 400;   
+}
+.navbar .nav-menu a:hover{
+    color: var(--orange);
+}
+.navbar .nav-menu .themeSwitch{
+    position: relative;
+    width: 40px;
+    height : 40px;
+    background: var(--darkblue);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .bar{
+    display:none
+}
+@media all and (max-width : 768px){
+    .navbar{
+        padding : 1em;
+    }
+    .navbar .nav-menu{
+        display : none;
+    }
+    .navbar .bar{
+        position: relative;
+        width: 40px;
+        height : 40px;
+        background: var(--darkblue);
+        border-radius: 50%;
+        cursor: pointer;
+        float:right;
+        display:flex;
+        justify-content: center;align-items: center;
+        visibility: visible;
+    }
+}
+@media all and (max-width : 768px){
+
+    .navbar{
+        display: flex;
+    }
+    .navbar .bar{
+        position: relative;
+    }
+    .navbar .nav-menuresponsive{
+        float:right;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .navbar .nav-menuresponsive a{
+        position: relative;
+        padding: 0.75em;
+        color : var(--darkblue);
+        text-decoration: none;
+        font-size: 1.15em;
+        font-weight: 400;   
+    }
+    .navbar .nav-menuresponsive a:hover{
+        color: var(--orange);
+    }
+    .navbar .nav-menuresponsive .themeSwitch{
+        position: relative;
+        width: 40px;
+        height : 40px;
+        background: var(--darkblue);
+        border-radius: 50%;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

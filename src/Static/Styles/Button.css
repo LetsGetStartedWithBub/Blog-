@@ -1,0 +1,13 @@
+.button-section{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding : 1em;
+}
+.button{
+    padding:0.75em;
+    border-radius : 5%;
+    border: none;
+    background-color: var(--darkblue);
+    color : var(--buttontext);
+}
