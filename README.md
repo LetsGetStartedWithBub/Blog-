@@ -1,4 +1,4 @@
-# Getting Started with Create React Blog App
+# Getting Started with Create React Blog App ✍🏻
 
 This application is beginner friendly and can be implemented both the ways i.e. with Static data present in `data` folder (with json server) and can be setup with mongo db as well for that `mongodata` folder will be used.
 
@@ -11,4 +11,8 @@ This application is beginner friendly and can be implemented both the ways i.e. 
  * npm install (for downloading requirements)
  * npm start (Inside Blog master directory and also in mongodata directory if mongo DB is being connected)
  
-That's Good to go...
+That's Good to go...😀
+
+Features Demo :
+
+https://www.youtube.com/watch?v=zWDryYu22ds&t=7s
