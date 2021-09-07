@@ -14,5 +14,6 @@ This application is beginner friendly and can be implemented both the ways i.e. 
 That's Good to go...😀
 
 Features Demo :
-<a href="https://www.youtube.com/watch?v=zWDryYu22ds&t=7s"><img src = "https://drive.google.com/file/d/1TTXLACBor6GbpOhahPznu0R5Xs2EuPVy/view?usp=sharing"></img></a>
+<a href="https://www.youtube.com/watch?v=zWDryYu22ds&t=7s"></a>
+<img src = "https://drive.google.com/file/d/1TTXLACBor6GbpOhahPznu0R5Xs2EuPVy/view?usp=sharing/">
 
